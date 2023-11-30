@@ -1,0 +1,12 @@
+# Project Name
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+
+## Installation
+
+```bash
+# Example installation steps
+git clone https://github.com/Orthogonal-z/op-app.git
+cd op-app
+npm install  # or any other package manager you're using
