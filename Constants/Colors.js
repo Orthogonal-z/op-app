@@ -4,5 +4,7 @@ export const COLORS = {
     text_Color: '#2F3556',
     darkText_Color: '#E45D11',
     lightGrey: '#36454F',
-    minimalGrey: '#D3D3D3'
+    minimalGrey: '#D3D3D3',
+    lightOrange: '#FFD580',
+    darkOrange: '#FF5733'
 }

@@ -23,7 +23,7 @@ const AppNavigator = () => {
             {/* StatusBar */}
 
             <Stack.Navigator
-                initialRouteName="InitialLogo">
+                initialRouteName="HomeScreen">
 
                 <Stack.Screen
                     component={InitialSplash}

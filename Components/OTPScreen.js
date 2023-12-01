@@ -74,6 +74,8 @@ const OTPScreen = () => {
                     <View style={{ left: 24, top: 100 }}>
                         <Text style={{ fontWeight: 'bold', color: 'red' }}>{timer} seconds</Text>
                     </View>
+
+
                 }
             </View>
         </SafeAreaView>
