@@ -9,8 +9,11 @@ import { COLORS } from './Constants/Colors';
 import LoginScreen from './Components/LoginScreen';
 import OTPScreen from './Components/OTPScreen';
 import HomeScreen from './Components/HomeScreen';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
+
 
 const AppNavigator = () => {
     return (
@@ -20,7 +23,6 @@ const AppNavigator = () => {
             <View>
                 <StatusBar backgroundColor={COLORS.button_Color} />
             </View>
-            {/* StatusBar */}
 
             <Stack.Navigator
                 initialRouteName="HomeScreen">

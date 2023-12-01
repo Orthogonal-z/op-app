@@ -65,7 +65,7 @@ export const astroData = [{
     isAvailable: true,
     experience: 2,
     ratings: 4.8,
-    services: ['Vaastu', 'Hawan', 'Muhurta', 'Palm Reading'],
+    services: ['Vaastu', 'Hawan', 'Muhurta', 'Palm Reading', 'Marrige'],
     price: 20,
     isChat: true,
     isCall: true,
@@ -73,3 +73,59 @@ export const astroData = [{
     image: require('../assets/panditImage.jpg')
 
 }]
+
+export const ecomData = [
+    {
+        id: '1',
+        productName: 'Bracelets',
+        description: 'Bracelets can help to boost your aura while also deflecting or reducing negative karma.',
+        price: 2999,
+        discount: '30%',
+        image: require('../assets/gems.png')
+    },
+
+    {
+        id: '1',
+        productName: 'Bracelets',
+        description: 'Bracelets can help to boost your aura while also deflecting or reducing negative karma.',
+        price: 2999,
+        discount: '30%',
+        image: require('../assets/gems.png')
+    },
+
+    {
+        id: '1',
+        productName: 'Bracelets',
+        description: 'Bracelets can help to boost your aura while also deflecting or reducing negative karma.',
+        price: 2999,
+        discount: '30%',
+        image: require('../assets/gems.png')
+    },
+
+    {
+        id: '1',
+        productName: 'Bracelets',
+        description: 'Bracelets can help to boost your aura while also deflecting or reducing negative karma.',
+        price: 2999,
+        discount: '30%',
+        image: require('../assets/gems.png')
+    },
+
+    {
+        id: '1',
+        productName: 'Bracelets',
+        description: 'Bracelets can help to boost your aura while also deflecting or reducing negative karma.',
+        price: 2999,
+        discount: '30%',
+        image: require('../assets/gems.png')
+    },
+
+    {
+        id: '1',
+        productName: 'Bracelets',
+        description: 'Bracelets can help to boost your aura while also deflecting or reducing negative karma.',
+        price: 2999,
+        discount: '30%',
+        image: require('../assets/gems.png')
+    }
+]

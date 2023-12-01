@@ -34,9 +34,10 @@ const TopCategories = () => {
                                 <TouchableOpacity
                                     onPress={() => handleActiveCategory(cat.id)}
                                     style={{
-                                        backgroundColor: COLORS.minimalGrey, paddingVertical: 15, paddingHorizontal: 20,
-                                        borderRadius: 50, shadowOffset: 10,
-                                        backgroundColor: COLORS.minimalGrey
+                                        backgroundColor: COLORS.minimalGrey, paddingVertical: 8, paddingHorizontal: 20,
+                                        borderRadius: 50,
+                                        backgroundColor: 'white', shadowOffset: { width: 4, height: 10 },
+                                        shadowColor: '#0000', shadowOpacity: 1.0, shadowRadius: 10,
                                     }}>
                                     <View style={{
                                         display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10

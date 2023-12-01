@@ -5,6 +5,7 @@ import { COLORS } from '../Constants/Colors'
 import Carousal from './Carousal'
 import TopCategories from './TopCategories'
 import HomeCardsMed from './HomeCardsMed'
+import HomeSmallCards from './HomeSmallCards'
 
 const HomeScreen = () => {
     return (
@@ -23,7 +24,7 @@ const HomeScreen = () => {
                             source={{
                                 uri: AVATAR
                             }} style={{
-                                width: 52,
+                                width: 45,
                                 aspectRatio: 1,
                                 borderRadius: 52,
                             }}
@@ -35,7 +36,7 @@ const HomeScreen = () => {
                         flexDirection: 'row',
                         justifyContent: 'space-between',
                         alignItems: 'center',
-                        gap: 115
+                        gap: 125
                     }}>
                         <View>
                             <Text numberOfLines={1}
@@ -53,14 +54,15 @@ const HomeScreen = () => {
                         <View>
                             <TouchableOpacity
                                 style={{
-                                    width: 45,
+                                    width: 40,
                                     padding: 12,
                                     aspectRatio: 1,
                                     alignItems: 'center',
                                     justifyContent: 'center',
                                     borderRadius: 52,
                                     borderWidth: 1,
-                                    borderColor: COLORS.lightGrey
+                                    backgroundColor: 'white',
+                                    borderColor: 'white'
                                 }}
                                 onPress={() => console.log('pressed')}>
 
@@ -91,9 +93,19 @@ const HomeScreen = () => {
                 <View>
                     <ScrollView showsVerticalScrollIndicator={false}
                         contentContainerStyle={{
-                            paddingBottom: 20
+                            paddingBottom: 10
                         }}>
                         <HomeCardsMed />
+                    </ScrollView>
+                </View>
+
+                {/* Home Cards Small Ecommerce */}
+                <View>
+                    <ScrollView showsVerticalScrollIndicator={false}
+                        contentContainerStyle={{
+                            paddingBottom: 20
+                        }}>
+                        <HomeSmallCards />
                     </ScrollView>
                 </View>
 
