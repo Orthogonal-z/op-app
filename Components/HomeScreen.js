@@ -106,7 +106,7 @@ const HomeScreen = () => {
                             height: 40,
                             width: 40,
                             borderRadius: 100,
-                            borderWidth: 1,
+                            borderWidth: 2,
                             borderColor: 'green'
                         }} source={require('../assets/pandit.png')}
                         />
