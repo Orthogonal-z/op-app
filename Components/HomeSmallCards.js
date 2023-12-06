@@ -11,7 +11,7 @@ const HomeSmallCards = () => {
             </View>
             <View style={{
                 display: 'flex',
-                flexDirection: 'row', flexWrap: 'wrap', marginLeft: 15, marginTop: 11, gap: 6
+                flexDirection: 'row', flexWrap: 'wrap', marginLeft: 15, marginTop: 11, gap: 10
             }}>
                 {
                     ecomData.map((data, index) => (
@@ -20,7 +20,9 @@ const HomeSmallCards = () => {
                             height: 172,
                             width: 112,
                             borderRadius: 10
-                        }}>
+                        }}
+
+                            key={index}>
                             <Image style={{ height: 78, width: 69, marginLeft: '20%', marginTop: 10 }} source={data.image} />
 
                             <View style={{
@@ -33,9 +35,9 @@ const HomeSmallCards = () => {
                                 <View>
                                     <TouchableOpacity >
                                         <Text style={{
-                                            backgroundColor: COLORS.button_Color, color: 'black', textAlign: 'center',
+                                            backgroundColor: COLORS.jaraSaaGrey, color: 'black', textAlign: 'center',
                                             paddingHorizontal: 10, paddingVertical: 12, borderBottomLeftRadius: 10, borderBottomRightRadius: 10,
-                                            fontWeight: '400'
+                                            fontWeight: '400', color: COLORS.button_Color, borderWidth: 1, borderColor: COLORS.button_Color
                                         }}>
                                             checkout
                                         </Text>

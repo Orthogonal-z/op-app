@@ -9,10 +9,8 @@ import { COLORS } from './Constants/Colors';
 import LoginScreen from './Components/LoginScreen';
 import OTPScreen from './Components/OTPScreen';
 import HomeScreen from './Components/HomeScreen';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Stack = createStackNavigator();
-const Tab = createBottomTabNavigator();
 
 
 const AppNavigator = () => {
@@ -73,5 +71,3 @@ const AppNavigator = () => {
 }
 
 export default AppNavigator
-
-const styles = StyleSheet.create({})

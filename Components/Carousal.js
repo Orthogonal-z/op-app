@@ -1,5 +1,5 @@
 import {
-    FlatList, Image, StyleSheet, Text, View, Dimensions, LogBox,
+    FlatList, Image, View, Dimensions,
 } from "react-native";
 import React, { useEffect, useRef, useState } from "react";
 import { COLORS } from '../Constants/Colors'
@@ -51,7 +51,7 @@ const Carousal = () => {
     const renderCarousalItem = ({ item, index }) => {
         return (
             <View style={{
-                
+
 
             }} key={index}>
                 <Image source={item.image}
